@@ -1,0 +1,62 @@
+@media (max-width: 640px) {
+
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    background-color: rgb(37, 126, 10);
+}
+
+.contenedorHeader {
+    display: flex;
+    border: 1px solid red;
+    widht:100%;
+    height: 7rem;
+    background-color: rgb(219, 219, 52);
+}
+
+.logo {
+    width: 5rem;
+    margin: 0.5rem;
+
+}
+h1{
+    position: relative;
+    top: 1rem;
+    text-align: center;
+    color:rgb(230, 30, 30);
+
+}
+.sitioEnConstruccion {
+    border: 1px solid red;
+    position: relative;
+    top: 4rem;
+    height: 100%;
+    width: 100%;
+}
+h2{
+    color:red;
+    text-align: center;
+    position: relative;
+    top: 9rem;
+}
+
+header{
+    border: 2px solid green;
+    display: flex; 
+
+}
+
+.imgfooter{
+    position: relative;
+    left:7rem;
+    top: 12rem;
+    width: 4rem;
+    height: 4rem;
+}
+
+}
